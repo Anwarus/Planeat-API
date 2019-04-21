@@ -5,7 +5,13 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Planeat API", "Planeat API\Planeat API.csproj", "{6E01A58B-D3B2-4A0A-A4DE-24794BBDC066}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{A932BE57-2911-4FA2-8D93-022D75A0DC39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{A932BE57-2911-4FA2-8D93-022D75A0DC39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csproj", "{011E2F75-9F76-4549-A654-827690A124DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{0EFAAF17-5E4E-4272-A8EF-62936BD2483E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{8DE19147-5CDE-471B-96BC-CAA3E2B1B5A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{A932BE57-2911-4FA2-8D93-022D75A0DC39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A932BE57-2911-4FA2-8D93-022D75A0DC39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A932BE57-2911-4FA2-8D93-022D75A0DC39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{011E2F75-9F76-4549-A654-827690A124DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{011E2F75-9F76-4549-A654-827690A124DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{011E2F75-9F76-4549-A654-827690A124DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{011E2F75-9F76-4549-A654-827690A124DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EFAAF17-5E4E-4272-A8EF-62936BD2483E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFAAF17-5E4E-4272-A8EF-62936BD2483E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EFAAF17-5E4E-4272-A8EF-62936BD2483E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFAAF17-5E4E-4272-A8EF-62936BD2483E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DE19147-5CDE-471B-96BC-CAA3E2B1B5A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE19147-5CDE-471B-96BC-CAA3E2B1B5A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE19147-5CDE-471B-96BC-CAA3E2B1B5A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE19147-5CDE-471B-96BC-CAA3E2B1B5A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
